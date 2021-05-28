@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tenemos como objetivo promover la moda reciclable y el cuidado personal, según las necesidades de cada persona. El enfoque de cada pieza y producto, es el amor propio.">
+    <meta name="keywords" content="MODA, RECICLAJE, SOSTENIBILIDAD, FAST FASHION, SECOND HAND, HAIRCARE, MAKEUP, CLOTHES, PERSONAL CARE, SELFCARE, SELFLOVE, AMOR PROPIO, CUIDADO PERSONAL">
+    <!--Link Bs-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!--Link Css-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--Link Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+    <!--Link Bs/Js-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <title>Augusta</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/logouno.png" alt="Logo" class="logo">
+    </header>
+    <main>
+    <!--Introduccion a la compañia-->
+
+    <section>
+              <figure class="text-end frase">
+                <blockquote class="blockquote">
+                  <p>No quiero la belleza, quiero la identidad.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Clarice Lispector
+                </figcaption>
+              </figure> 
+            <article class="subtitulos__descripciones">
+                <p>Augusta tiene como objetivo promover la moda reciclable y el cuidado personal, según las necesidades de cada persona. El enfoque de cada pieza y producto, es el amor propio.</p>
+                <p>Todas las tallas, colores, tipos de piel, estilos y escencias, son las claves para hacer de nuestra tienda un lugar seguro, sano y realista para comprar.</p>    
+            </article>
+    </section>
+    <!--Hipervinculos de los productos a vender-->
+    <section>
+        <h1 class="subtitulos"> Productos </h1>
+    <!--Carousel-->
+            <div id="carouselExampleFade" class="carousel slide carousel-fade carouin" data-bs-ride="carousel">
+              <div class="carousel-inner carouin">
+                <div class="carousel-item active">
+                  <img src="imagenes/1.png" class="d-block w-25 carouin"  alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagenes/2.png" class="d-block w-25 carouin" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagenes/3.png" class="d-block w-25 carouin" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <article class="subtitulos__descripciones">
+                <p>Hacé click en cualquiera de nuestras categorías. Si andás en busca de algo específico y no lo encontrás, ponéte en contacto con nosotras.</p>
+            </article>  
+            <nav class="producto">    
+               <a href="pages/maquillaje.html">   
+                    <img src="imagenes/Maquillajee.png" alt="maquillaje" class="imgprod"> 
+                </a>
+                <a href="pages/skincare.html">  
+                    <img src="imagenes/skincaree.png" alt="skincare" class="imgprod">  
+                </a>
+                <a href="pages/haircare.html">  
+                    <img src="imagenes/haircaree.png" alt="haircare" class="imgprod">  
+                </a>
+                <a href="pages/ropa.html">
+                    <img src="imagenes/Prendass.png" alt="prendas" class="imgprod">    
+                </a>
+            </nav>
+    </section>
+    <!--Informacion acerca del cliente para utilizar luego en el carrito de compras-->
+    <section id="acerca">
+        <article id="title">
+            <h2 class="subtitulos">Acerca de vos</h2>
+        </article> 
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-2">
+              <label for="validationCustom01" class="form-label descripform">Nombre</label>
+              <input type="text" class="form-control" id="validationCustom01" value="" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label descripform">Apellidos</label>
+              <input type="text" class="form-control" id="validationCustom02" value="" required>
+            </div>
+            <div class="col-md-2">
+                <label for="validationCustomUsername1" class="form-label descripform">Código de país</label>
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationCustomUsername1" class="form-label descripform">Teléfono</label>
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                </div>
+              </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label descripform">Correo electrónico</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label descripform">Lugar de Compra</label>
+              <select class="form-select descripform" id="validationCustom04" required>
+                <option selected disabled value="">Seleccione...</option>
+                <option>Costa Rica</option>
+                <option>Otro lugar del mundo</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+                <label for="validationCustom05" class="form-label descripform">Tipo de pago</label>
+                <select class="form-select descripform" id="validationCustom05" required>
+                  <option selected disabled value="">Seleccione...</option>
+                  <option>Tarjeta de crédito</option>
+                  <option>Tarjeta de débito</option>
+                  <option>Transferencia</option>
+                </select>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label descripform" for="invalidCheck">
+                  ¿Acepta los términos y condiciones?
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <div class="col-1">
+              <button class="botonf" type="submit">Enviar</button>
+            </div>
+            <div class="col-2">
+                <button class="botonf" type="reset">Restablecer</button>
+              </div>
+          </form>
+    </section>
+    <!--Hipervinculo al carrito de compras, se removera con un boton flotante-->
+    <section>
+        <h2 class="subtitulos">Carrito de Compras</h2>
+        <article class="subtitulos__descripciones">
+            <p>Para ir al carrito de compras presioná <a href="pages/carrito.html">acá</a></p> 
+        </article>
+    </section>
+    </main>
+    <footer>
+        <nav class="redes"> 
+       <h3 class="subtitulos">Redes Sociales</h3>
+            <a href="https://facebook.com">Facebook Augusta</a> |
+            <a href="https://instagram.com"> Instagram Augusta</a> |
+            <a href="https:pinterest.com">Pinterest Augusta</a> |
+            <a href="https://web.whatsapp.com/">WhatsApp Augusta</a>
+        
+        </nav>
+    </footer>
+</body>
+</html>

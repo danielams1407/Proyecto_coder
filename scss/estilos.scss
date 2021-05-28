@@ -1,0 +1,219 @@
+/********* Secciones *********/
+header{
+    grid-area: header;
+    margin: 15px;
+    padding: 15px;
+  
+    
+}
+body{
+    margin: 15px;
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg, #a4c7e7da 0%, rgb(240, 237, 231) 85%);
+}
+footer{
+    grid-area: footer;
+    margin: 15px;
+    padding: 15px;
+    border-top: papayawhip 2px dotted;
+
+}
+#inicio{
+    grid-area: inicio;
+}
+#productos{
+    grid-area: prod;
+}
+#userinfo1{
+    grid-area: userinfo1;
+}
+#userinfo2{
+    grid-area: userinfo2;
+    ;
+}
+#Acerca{
+    grid-area: title;
+    justify-items: center;
+}
+#howto{
+    grid-area: how;
+
+}
+#cart{
+    grid-area: cart;
+}
+
+/********* Textos *********/
+
+.titulos{
+    color:rgb(114, 114, 114);
+    font-family: 'Belleza', sans-serif;
+    text-align: center;
+}
+.subtitulos{
+    color:rgb(114, 109, 109);
+    font-family: 'Belleza', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+}
+.redes{
+    text-align: center;
+    margin-bottom: 60px;
+
+ }
+.frase{
+    text-align: right;
+    font-family: 'Belleza', sans-serif;
+    margin: 35px;
+    margin-bottom: 80px;
+}
+.subtitulos__descripciones{
+    text-align: center;
+    font-family: 'Belleza', sans-serif;
+    margin: 40px;
+}
+.descripform{
+     font-family: 'Belleza', sans-serif;
+}
+
+
+/********* Grids *********/
+
+#maingrid{
+    display: grid;
+    grid-template-areas: 
+    "title title"
+    "userinfo1 userinfo2 ";
+    justify-content: center;
+    grid-template-rows: 2fr 4fr ;
+    columns: 50% 50% ;
+}
+
+#ccgrid{
+    display: grid;
+    grid-template-areas: 
+    "how cart cart"
+    "how cart cart"
+    "how cart cart"
+    "how cart cart";
+    grid-template-columns: 30% auto 30%;
+    grid-template-rows: 3fr 3fr 3fr 3fr; 
+}
+
+/********* Estilos *********/
+.logo{
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+    transition: 15s ;  
+}
+.logo:hover{
+    transform: scale(1.5);
+}
+.imgprod{
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+    border-radius: 25px ;
+    transition: .15s;
+    }
+.imgprod:hover{
+    transform: scale(1.3);
+}
+
+.producto{
+    display: flexbox;
+    flex-direction: row;
+    margin: 30px;
+    text-align: center;
+}
+.hipervinculo{
+    list-style: none;
+    text-align: center;
+}
+.formularios{
+    font-family:'Belleza', sans-serif;
+    width: fit-content;
+    margin: 50px;
+}
+.formularios2{
+    font-family:'Belleza', sans-serif;
+    width: fit-content;
+    margin: 50px;
+    height: fit-content;
+    align-items: center;
+}
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Belleza', sans-serif;
+    margin: 25px;
+    padding: 8px;
+    justify-content: center;
+}
+.opNav{
+    margin: 15px;
+    padding: 10px;
+    border: rgba(172, 133, 107, 0.795) solid 2px  ;
+    width: fit-content ;
+    transition: .15s;
+}
+.opNav:hover{
+    transform: scale(1.2);
+}
+.mante{
+    font-family: 'Belleza', sans-serif;
+    font-size:larger;
+    text-align: center;
+    color: rgb(179, 156, 25);
+}
+.imgMante{
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 25px ;
+}
+.imgcc{
+    width: 100%;
+    transition: .15s;
+}
+.imgcc:hover{
+transform: scale(1.2);
+}
+.imgcarou{
+    width: 150;
+    height: 3fr;
+    margin: auto;
+}
+.carouin{
+margin: auto;
+}
+
+
+.botonf{
+    background-color: rgba(236, 230, 215, 0.986);
+    border: none;
+    font-family: 'Belleza', sans-serif;
+    color: rgb(85, 108, 112);
+}
+
+
+/********* Etiquetas *********/
+
+a{
+    color: rgb(95, 100, 72);
+    font-family:'Belleza', sans-serif;
+    font-size: large;
+    text-decoration: none;
+}
+li{
+    display: inline;
+    margin-right: 60px; 
+    margin-left: 60px;
+    padding: 7px;
+    text-align: center;
+    border:rgb(206, 167, 167) solid 2px;
+}
